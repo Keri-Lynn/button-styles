@@ -14,7 +14,12 @@ div {
 
 .btn {
   display: inline-block;
+  font-size: 1.125rem;
+  max-width: 20em;
   padding: .4em .75em .3em;
+
+  /* Border raduis puts rounds the edges of a box */
+
   border-radius: 8px;
   border: 3px solid #fff;
   border-width: 3px;
