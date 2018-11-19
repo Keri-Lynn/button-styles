@@ -14,9 +14,9 @@ div {
 
 .btn {
   display: inline-block;
-  padding: 0.4em .75em .3em;
+  padding: .4em .75em .3em;
   border-radius: 8px;
-  border: 0;
+  border: 3px solid #fff;
   border-width: 3px;
 }
 
