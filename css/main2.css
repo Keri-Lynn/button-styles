@@ -31,9 +31,15 @@ div {
   color: #fff;
 }
 
+.btn-primary:hover .btn {
+  background-color: #234666;
+}
+
+
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn-subtle-alt {
@@ -51,10 +57,16 @@ div {
 }
 
 .btn-ghost {
+  display: inline-block;
+  padding: 0.4em .75em .3em;
   border-color: #000;
   background-color: #fff;
+  border: 1px solid #335532;
+  border-radius: 8px;
+  border: 0;
   color: #333;
   outline-color: #543632;
+  text-decoration: none;
 }
 
 .btn-ghost-alt {
@@ -71,8 +83,13 @@ div {
 }
 
 .btn-warning {
+  display: inline-block;
+  padding: 0.4em .75em .3em;
   background-color: #f33;
+  border-radius: 8px;
+  border: 0;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn-warning-alt {
@@ -84,7 +101,6 @@ div {
   border-color: #933;
   color: #fff;
 }
-
 .btn-warning:hover .btn {
   background-color: #933;
 }
